@@ -9,6 +9,8 @@ what they need to perform it for, or define the target audience of the doc.
 > **Highlight important information**
 >
 > You can change the element to *tip* or *warning* by renaming the style attribute below.
+> - test 
+>  - test
 >
 {style="note"}
 
@@ -17,6 +19,7 @@ what they need to perform it for, or define the target audience of the doc.
 It is good practice to list the prerequisites that are required or recommended.
 
 Make sure that:
+
 - First prerequisite
 - Second prerequisite
 
@@ -33,6 +36,7 @@ Some introductory information.
 2. Step with a [link](https://www.jetbrains.com)
 
 3. Step with a list.
-   - List item
-   - List item
-   - List item
+    - List item
+    - List item
+    - List item
+      - test

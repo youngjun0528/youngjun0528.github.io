@@ -82,6 +82,7 @@
     - Database 입력
     - ElasticSearch 등 Logging 시스템 입출력
     - Log File 생성
+        - test
 - App. 과 Log 저장소 간의 상호 작용을 검증하기 위해 Mock 을 사용한다.
     - ILogger 의 Wrapper 도입
     - 구조화된 로깅(Structured Logging) 도입 ( 로그 데이터와 렌더링 과정 분리 )

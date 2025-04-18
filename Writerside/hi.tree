@@ -59,6 +59,9 @@
             <toc-element topic="2023-01-30-modern-web-vuejs-12.md"/>
             <toc-element topic="2023-01-30-modern-web-vuejs-13.md"/>
         </toc-element>
+        <toc-element topic="fastapi.topic">
+            <toc-element topic="2025-04-09-fastapi-01.md"/>
+        </toc-element>
         <toc-element topic="modern_web.topic">
             <toc-element topic="2023-01-30-modern-web-agile-01.md"/>
             <toc-element topic="2023-01-30-modern-web-agile-02.md"/>
@@ -76,12 +79,14 @@
         </toc-element>
     </toc-element>
     <toc-element topic="programming.topic">
+        <toc-element topic="IoT-네트워크-프로그래밍.md"/>
         <toc-element topic="git.md"/>
         <toc-element topic="2023-02-03-programming-java-01.md"/>
         <toc-element topic="2023-02-03-programming-clean-code-01.md"/>
         <toc-element topic="2023-02-03-programming-data-analysis-01.md"/>
         <toc-element topic="2023-02-03-programming-data-structure-01.md"/>
     </toc-element>
+    <toc-element topic="Connect-Protocol.md"/>
     <toc-element topic="sw_engineering.topic">
         <toc-element topic="wiki.md"/>
         <toc-element topic="2023-02-03-sw-engineering-tdd-01.md"/>
@@ -97,13 +102,20 @@
         </toc-element>
     </toc-element>
     <toc-element topic="large_system_design_basic.topic">
-        <toc-element topic="02-07-hotel-reserve-system.md"/>
         <toc-element topic="01-01-scale-up-with-users.md"/>
+        <toc-element topic="01-02-back-of-the-envelope-estimation.md"/>
+        <toc-element topic="01-03-interview.md"/>
+        <toc-element topic="01-04-throughput-rate-limit.md"/>
+        <toc-element topic="02-07-hotel-reserve-system.md"/>
     </toc-element>
     <toc-element topic="mysql-performance.topic">
         <toc-element topic="01_query.md"/>
     </toc-element>
     <toc-element topic="sw_architect.topic">
         <toc-element topic="01_sw_architect.md"/>
+        <toc-element topic="02_sw_architect_basic.md"/>
+    </toc-element>
+    <toc-element topic="python_design_pattern.topic">
+        <toc-element topic="test.md"/>
     </toc-element>
 </instance-profile>
