@@ -118,4 +118,7 @@
     <toc-element topic="python_design_pattern.topic">
         <toc-element topic="test.md"/>
     </toc-element>
+    <toc-element topic="llm_engineering.topic">
+        <toc-element topic="01-01-LLMOps.md"/>
+    </toc-element>
 </instance-profile>

@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c7839de-411d-4835-8ca4-e739b420b9ee" name="Changes" comment="Update branch">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/youngjun0528.github.io.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Writerside/topics/large_system/01-02-back-of-the-envelope-estimation.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Writerside/topics/large_system/01-03-interview.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="9c7839de-411d-4835-8ca4-e739b420b9ee" name="Changes" comment="Add temp page&#10;&#10;- 작업 중인 문서 일괄 업데이트&#10;- master 는 별도 작업 이후 merge 필요">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/youngjun0528.github.io.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Writerside/hi.tree" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/hi.tree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Writerside/images/drawio/large_system/01_01_Image_01_03.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/large_system/01-04-throughput-rate-limit.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/large_system/01-01-scale-up-with-users.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/large_system/01-01-scale-up-with-users.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/sw_architect/01_sw_architect.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/sw_architect/01_sw_architect.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/unittest/Integration-Test.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/unittest/Integration-Test.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/unittest/Mock-Test.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/unittest/Mock-Test.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/How-to.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/How-to.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +17,17 @@
   <component name="ChangesViewManager">
     <option name="groupingKeys">
       <option value="directory" />
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -76,41 +77,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/yoon/Source/t20-develop/plada",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "프로젝트",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2447644",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/20250418-temp-page&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/yoon/Github/youngjun0528.github.io/Writerside/topics/LLM_engineering&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2447644&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": [
-      "/home/yoon/Github/youngjun0528.github.io/Writerside/topics/certificate/linux_master/2023-02-03-certificate-linux-master-01.md",
-      "/home/yoon/Github/youngjun0528.github.io/Writerside/topics/python_design_pattern/test.md",
-      "/home/yoon/Github/youngjun0528.github.io/Writerside/topics/unittest/Integration-Test.md"
+  &quot;keyToStringList&quot;: {
+    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: [
+      &quot;/home/yoon/Github/youngjun0528.github.io/Writerside/topics/LLM_engineering/01-01-LLMOps.md&quot;,
+      &quot;/home/yoon/Github/youngjun0528.github.io/Writerside/topics/cloud/2023-04-17-cloud-docker-02.md&quot;,
+      &quot;/home/yoon/Github/youngjun0528.github.io/Writerside/topics/full_stack/fastapi/2025-04-09-fastapi-01.md&quot;,
+      &quot;/home/yoon/Github/youngjun0528.github.io/Writerside/topics/full_stack/vuejs/2023-01-30-modern-web-vuejs-01.md&quot;,
+      &quot;/home/yoon/Github/youngjun0528.github.io/Writerside/topics/full_stack/vuejs/2023-01-30-modern-web-vuejs-03.md&quot;,
+      &quot;/home/yoon/Github/youngjun0528.github.io/Writerside/topics/full_stack/vuejs/2023-01-30-modern-web-vuejs-05.md&quot;,
+      &quot;/home/yoon/Github/youngjun0528.github.io/Writerside/topics/full_stack/vuejs/2023-01-30-modern-web-vuejs-10.md&quot;,
+      &quot;/home/yoon/Github/youngjun0528.github.io/Writerside/topics/large_system/01-03-interview.md&quot;,
+      &quot;/home/yoon/Github/youngjun0528.github.io/Writerside/topics/large_system/01-04-throughput-rate-limit.md&quot;,
+      &quot;/home/yoon/Github/youngjun0528.github.io/Writerside/topics/programming/2023-02-03-programming-data-structure-01.md&quot;,
+      &quot;/home/yoon/Github/youngjun0528.github.io/Writerside/topics/programming/2023-02-03-programming-java-01.md&quot;,
+      &quot;/home/yoon/Github/youngjun0528.github.io/Writerside/topics/programming/git.md&quot;,
+      &quot;/home/yoon/Github/youngjun0528.github.io/Writerside/topics/python_design_pattern/test.md&quot;,
+      &quot;/home/yoon/Github/youngjun0528.github.io/Writerside/topics/sw_architect/01_sw_architect.md&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Writerside/topics/LLM_engineering" />
       <recent name="$PROJECT_DIR$/Writerside/topics/full_stack/fastapi" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
       </set>
     </attachedChunks>
   </component>
@@ -138,7 +152,28 @@
       <workItem from="1743061696173" duration="32000" />
       <workItem from="1744150986922" duration="8345000" />
       <workItem from="1744588016202" duration="23000" />
+      <workItem from="1744945505638" duration="949000" />
+      <workItem from="1744950882262" duration="1766000" />
+      <workItem from="1745971976821" duration="101000" />
+      <workItem from="1749592870792" duration="2700000" />
+      <workItem from="1749678494874" duration="6618000" />
+      <workItem from="1749791816706" duration="3660000" />
+      <workItem from="1750112507870" duration="3609000" />
+      <workItem from="1751235300552" duration="1780000" />
+      <workItem from="1752813950928" duration="11000" />
+      <workItem from="1752814262828" duration="89000" />
+      <workItem from="1752814374418" duration="2037000" />
+      <workItem from="1753224290707" duration="51000" />
     </task>
+    <task id="LOCAL-00001" summary="Add temp page&#10;&#10;- 작업 중인 문서 일괄 업데이트&#10;- master 는 별도 작업 이후 merge 필요">
+      <option name="closed" value="true" />
+      <created>1744945728393</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744945728393</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +194,7 @@
     <MESSAGE value="Init write side pages" />
     <MESSAGE value="Update main category of programming page" />
     <MESSAGE value="Update branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update branch" />
+    <MESSAGE value="Add temp page&#10;&#10;- 작업 중인 문서 일괄 업데이트&#10;- master 는 별도 작업 이후 merge 필요" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add temp page&#10;&#10;- 작업 중인 문서 일괄 업데이트&#10;- master 는 별도 작업 이후 merge 필요" />
   </component>
 </project>
